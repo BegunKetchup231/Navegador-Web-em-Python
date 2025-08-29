@@ -7,8 +7,7 @@ class Browser(QMainWindow):
     def __init__(self):
         super(Browser, self).__init__()
 
-        self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl("http://www.google.com"))
+        self.browser = QWebEngineView() self.browser.setUrl(QUrl("http://www.google.com"))
         
         # Configurar a página inicial
         self.setGeometry(100, 100, 800, 600)  # Define a posição e o tamanho da janela
